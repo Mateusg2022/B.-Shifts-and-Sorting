@@ -5,7 +5,8 @@ Porém, achei interessante fazer a ordenação e calcular o numero de shifts fei
 quantas vezes o algoritmo selecionou uma substring e fez a rotação dela durante a ordenação. O custo que a questão pede seria, para cada substring selecionada para o shift, 
 calcular 'Right - Left + 1' e adicionar ao somatório.
 
-Um shift significa selecionar uma substring da minha sequência original e 'rotaciona-lo'. O elemento na posição i vai para a posição i+1 e o elemento em N vai para a posição 0. 
+Um shift significa selecionar uma substring da minha sequência original e 'rotaciona-lo'. O elemento na posição i vai para a posição i+1 e o ultimo elemento vai para a primeira posição. 
+O desafio da questão é ordenar um array binário usando somente a operação de shift.
 
 Exemplo:
 
